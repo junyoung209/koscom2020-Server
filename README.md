@@ -12,5 +12,5 @@ $ pip install flask
 # Flask 확인
 $ flask --version
 
-#Flask 서버 구동 확인하기
-CLI환경에서 내려받은 폴더에서 flask run 입력
+# Flask 서버 구동
+내려받은 폴더에서 flask run 입력

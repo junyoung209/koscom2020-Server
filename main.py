@@ -34,14 +34,6 @@ for row in reader:
 f_result = open('KOSPI200_result.csv', 'w', encoding = 'euc-kr', newline = '')
 writer = csv.writer(f_result)
 for i in range(1):#in range(len(stock_list)):
-    tmp = 'C:\Users\교육실\Desktop\prophet\outputs\'
-    old_name = ''
-    new_name = ''
-    tmp += stock_list[i][0]
-    old_name += '.png'
-    new_name += '_pop.png'
-    print(old_name)
-    os.rename(old_name, new_name)
-    #direction, end_price = sample.save_img(stock_list[i][0])
-    #writer.writerow([stock_list[i][0], stock_list[i][1], direction, end_price])
+    direction, end_price = sample.save_img(stock_list[i][0])
+    writer.writerow([stock_list[i][0], stock_list[i][1], direction, end_price])
 f_result.close()

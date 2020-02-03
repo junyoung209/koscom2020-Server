@@ -27,3 +27,8 @@ $ conda install numpy cython -c conda-forge
 
 # Facebook Prophet 설치
 $ conda install -c conda-forge fbprophet
+
+# FbProphet with stock price data.
+<div>
+<img width = "750" src = "https://user-images.githubusercontent.com/60382360/73626899-ed130080-468d-11ea-992d-48fa46b428ba.PNG">
+</div>
